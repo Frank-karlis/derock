@@ -26,13 +26,13 @@ export default function Home() {
           <Image
             width={400}
             height={400}
-            src={"/toyota 2.jpeg"}
+            src={"/hyanda.jpeg"}
             alt="car image"
             className="rounded-lg" />
           <Image
             width={400}
             height={400}
-            src={"/ford 3.jpeg"}
+            src={"/ford 2.jpeg"}
             alt="car image"
             className="rounded-lg" />
         </div>
