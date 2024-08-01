@@ -19,7 +19,7 @@ export default function Contact() {
             </section>
             <section className=" mt-3 p-6 border border-lg h-[40vh] grid grid-cols-2 gap-3 bg-[#2e236c] min:h-screen p-[10px] w-[100%] ">
                 <blockquote>
-                    <SiGmail className="w-[100%] item-center text-[#cdacd6] text-9xl " />
+                    <SiGmail className="w-[100%] item-center text-teal-600 text-9xl " />
                 </blockquote>
                 <div className="grid grid-cols-1 items-center">
                     <p className="text-xs text-[gold] font-bold text-center m-2 p-1 lg:text-4xl">You can send An E-mail to our Email Address </p>
