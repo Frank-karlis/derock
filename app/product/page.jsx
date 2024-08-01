@@ -9,7 +9,7 @@ export default function Product() {
                     <p className=" mt-2 text-2xl text-center font-medium text-white md:text-4xl lg:text-4xl"> HERE ARE SPARE PARTS AND THEIR PRICES</p>
                 </div>
                 <div className="">
-                    <h3 className="mt-2 text-2xs text-center font-medium text-white md:text-4xl lg:text-4xl"><span className="text-red-900">NOTE:</span><u>PLEASE NOTE THAT THE PRICES ARE NOT FIXED AND THEY ARE NOGOTIABLE AND ARE SOLD IN NAIRA(NGN)</u></h3>
+                    <h3 className="mt-2 text-2xs text-center font-medium text-white md:text-4xl lg:text-4xl"><span className="text-red-900">NOTE:</span><u>PLEASE NOTE THAT THE PRICES ARE NOT FIXED <span>(THEY ARE NEGOTIABLE)</span> AND ARE SOLD IN NAIRA(NGN)</u></h3>
                 </div>
             </section>
             <section className="mt-7">
@@ -21,45 +21,56 @@ export default function Product() {
                         <Image
                             width={300}
                             height={200}
-                            src={"/brake pad display.jpg"}
+                            src={"/v8 pad.jpeg"}
                             alt="car image"
                             className="rounded-lg" />
-                        <h2 className="text-xl text-red-800 font-bold "> Name:<span className="text-black text-xs lg:text-xl">Sienna Brake Pad </span> </h2>
-                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N</span> </h3>
-                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black"> </span></p>
+                        <h2 className="text-xs text-red-800 font-bold lg:text-xl"> Name:<span className="text-black text-xs lg:text-xl">Highlander V8 Brake Pad</span> </h2>
+                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N55,000</span> </h3>
+                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black font-bold"> BRISCO</span></p>
                     </div>
                     <div className="bg-gray-400 p-5 ">
                         <Image
                             width={300}
                             height={200}
-                            src={"/brake pad display.jpg"}
+                            src={"/H15.jpeg"}
                             alt="car image"
                             className="rounded-lg" />
-                        <h2 className="text-2xl text-red-800 font-bold "> Name:<span className="text-black text-xs lg:text-xl">Sienna Brake Pad fdasssssssfffff </span> </h2>
-                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N</span> </h3>
-                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black"> </span></p>
+                        <h2 className="text-xs text-red-800 font-bold lg:text-xl"> Name:<span className="text-black text-xs lg:text-xl">Hillux 2015 Brake Pad </span> </h2>
+                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N54,000</span> </h3>
+                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black font-bold">BRISCO</span></p>
                     </div>
                     <div className="bg-gray-400 p-5 ">
                         <Image
                             width={300}
                             height={200}
-                            src={"/brake pad display.jpg"}
+                            src={"/fel.jpeg"}
                             alt="car image"
                             className="rounded-lg" />
-                        <h2 className="text-2xl text-red-800 font-bold "> Name:<span className="text-black text-xs lg:text-xl">Sienna Brake Pad </span> </h2>
-                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N</span> </h3>
-                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black"> </span></p>
+                        <h2 className="text-xs text-red-800 font-bold lg:text-xl "> Name:<span className="text-black text-xs lg:text-xl">Ford Explorer Front Brake Pad </span> </h2>
+                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N35,000</span> </h3>
+                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black font black"> </span></p>
                     </div>
                     <div className="bg-gray-400 p-5 ">
                         <Image
                             width={300}
                             height={200}
-                            src={"/brake pad display.jpg"}
+                            src={"/bfel.jpeg"}
                             alt="car image"
                             className="rounded-lg" />
-                        <h2 className="text-xl text-red-800 font-bold "> Name:<span className="text-black text-xs lg:text-xl"> Sienna Brake Pad </span> </h2>
-                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N</span> </h3>
-                        <p className="text-red-800 font-medium">Type: <span className="text-black"> </span></p>
+                        <h2 className="text-xs text-red-800 font-bold lg:text-xl"> Name:<span className="text-black text-xs lg:text-xl">Ford Explorer Back Brake Pad </span> </h2>
+                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N25,000</span> </h3>
+                        <p className="font-medium text-red-800 font-medium">Type: <span className="text-black font black"> </span></p>
+                    </div>
+                    <div className="bg-gray-400 p-5 ">
+                        <Image
+                            width={300}
+                            height={0}
+                            src={"/L570.jpeg"}
+                            alt="car image"
+                            className="rounded-lg" />
+                        <h2 className="text-xs text-red-800 font-bold lg:text-xl "> Name:<span className="text-black text-xs lg:text-xl"> Lexus 570 </span> </h2>
+                        <h3 className="font-bold text-red-800"> Price:<span className="text-black">N60,000</span> </h3>
+                        <p className="text-red-800 font-medium">Type: <span className="text-black font-bold"> BRISCO</span></p>
                     </div>
                    
                 </div>
