@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <main className="mt-1 px-2 md:px-12 lg:px-10 py-12 bg-[#17153b] text-white">
+    <main className="mt-1 px-2 py-4 md:px-12 lg:px-10 py-12 bg-[#17153b] text-white">
       <section className="min:h-screen p-[10px] w-[100%] ">
         <div className="item-center m-3 ">
           <div>

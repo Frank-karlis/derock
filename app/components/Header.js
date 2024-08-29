@@ -4,22 +4,28 @@ import { IoCarSportSharp } from "react-icons/io5";
 import Link from "next/link";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import Image from "next/image";
 
 export default function Header() {
     const [menu, setMenu] = useState(false);
 
     return (
         <>
-            <nav className="flex justify-between items-center  bg-[#cbacd6] py-3 px-3 md:px-12 lg:px-16">
+            <nav className="flex justify-between items-center  bg-[#cbacd6] py-3 px-3 md:px-12 lg:px-10">
                 <div className="flex gap-5">
-                    <IoCarSportSharp className="text-[#17153b] text-5xl" />
+                <Image
+                            width={300}
+                            height={200}
+                            src={"/logos.jpg"}
+                            alt="car image"
+                            className="rounded-lg h-[10%] w-[15%] " />
                     <p className="text-[#17153b] text-2xl font-bold mt-2"> DE-ROCK MOTORS</p>
                 </div>
                 <div className="text-[#17153b] lg:flex gap-7 justity-center max-sm:hidden md:hidden">
                     <Link className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" href="/">Home</Link>
                     <Link className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" href="/product">Product</Link>
                     <Link className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" href="/contact">Contact us</Link>
-                    <Link className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" href="https://maps.app.goo.gl/X5UkYMTsRUuRAsF49?g_st=iw">Locate us</Link>
+                    <Link className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" href="https://maps.app.goo.gl/DLHDTUd7kH1mD2w97?g_st=ac">Locate us</Link>
                 </div>
                 <div className="lg:hidden">
                     {!menu
@@ -35,7 +41,7 @@ export default function Header() {
                     <li><Link href="/" className="e font-bold text-[#cbacd6] hover:text-white duration-500">Home</Link></li>
                     <li><Link href="/product" className="font-bold text-[#cbacd6] hover:text-white duration-500">Product</Link></li>
                     <li><Link href="/contact" className="font-bold text-[#cbacd6] hover:text-white duration-500">Contact us</Link></li>
-                    <li><Link href="https://maps.app.goo.gl/X5UkYMTsRUuRAsF49?g_st=iw" className="font-bold text-[#cbacd6] hover:text-white duration-500 ">Locate us</Link></li>
+                    <li><Link href="https://maps.app.goo.gl/DLHDTUd7kH1mD2w97?g_st=ac" className="font-bold text-[#cbacd6] hover:text-white duration-500 ">Locate us</Link></li>
                 </ul>
                 : null}
         </>
